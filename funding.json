@@ -1,0 +1,47 @@
+{
+    "version": "v1.0.0",
+    "entity": {
+        "type": "organisation",
+        "role": "maintainer",
+        "name": "Seosam Technologies Limited",
+        "email": "alihasham7860@gmail.com",
+        "phone": "+254794442688",
+        "description": "Seosam Technologies Limited is a leading cloud and software solutions provider based in Kenya, dedicated to building digital public goods and open source innovations in healthcare, finance, and education across Africa.",
+    },
+    "projects": [{
+        "guid": "afya-foss",
+        "name": "AfyaFOSS",
+        "description": "AfyaFOSS is an open-source electronic medical records (EMR) system designed for African clinics. It features a mobile-first interface, multilingual support, offline mode, and an AI assistant for voice-driven patient data entry. The system aims to improve patient record keeping, clinical workflows, and health data insights across low-resource settings.",
+        "repositoryUrl": {
+            "url": "https://github.com/alimo-adam/afya-foss"
+        },
+        "licenses": ["spdx:AGPL-3.0"],
+        "tags": ["healthcare", "emr", "open-source", "africa", "clinics", "ai-assistant", "digital-health", "foss", "public-good", "multilingual"]
+    }],
+    "funding": {
+        "channels": [{
+            "guid": "afyafoss-bank",
+            "type": "bank",
+            "address": "Account: 1234567890, Branch: Nairobi CBD, Bank: Equity Bank Kenya",
+            "description": "Preferred funding channel for project development and deployment support."
+        }],
+        "plans": [{
+            "guid": "starter-support-plan",
+            "status": "active",
+            "name": "AfyaFOSS Phase 1 Deployment",
+            "description": "Funding to complete development, testing, and initial deployments to 50 clinics across East Africa.",
+            "amount": 85000,
+            "currency": "USD",
+            "frequency": "one-time",
+            "channels": ["kitstek-bank"]
+        }],
+        "history": [{
+            "year": 2024,
+            "income": 5000,
+            "expenses": 4700,
+            "taxes": 0,
+            "currency": "USD",
+            "description": "Initial bootstrapped development and PoC testing in one pilot clinic in Nairobi, Kenya."
+        }]
+    }
+}
